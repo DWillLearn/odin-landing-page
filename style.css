@@ -1,0 +1,35 @@
+/*For size reference begin*/
+header,main,footer {
+border:.1px solid pink;
+}
+/*For size reference end*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    /*Add madding and margin last*/
+    display:flex;
+    flex-flow:column nowrap;
+}
+
+header,main,footer{
+    display:flex;
+}
+
+header{
+    justify-content: space-between;
+}
+
+main{
+    flex-flow: column nowrap;
+    align-items: center;
+
+}
+
+footer{
+    align-self: center;
+}
