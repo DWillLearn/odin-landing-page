@@ -28,22 +28,23 @@ background-color: #1F2937;
 
 header {
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-logo{
-  color:#F9FAF8;
   font-size:24px;
+  color:#F9FAF8;
   font-weight: 600;
 }
 
 .header-nav-list {
   display: flex;
   list-style: none;
-  color:#E5E7EB;
 }
 
 main {
   flex-flow: column nowrap;
+  justify-content: center;
 }
 
 section {
@@ -57,14 +58,14 @@ section {
 }
 
 .hero-header{
-  color:#F9FAF8;
   font-size: 48px; 
   font-weight:700;
+  color:#F9FAF8;
 }
 
 .hero-subtext{
-  color:#E5E7EB;
   font-size:18px;
+  color:#E5E7EB;
 
 }
 
@@ -79,15 +80,15 @@ section {
 }
 
 .info-header{
-  color: #1F2937;
   font-size:36px;
   font-weight: 700;
+  color: #1F2937;
 }
 
-/* .info-image{
-  border:1px solid black;
+.info-image{
+  border:1px solid #3882F6;
   border-radius: 10px;
-} */
+}
 
 .testimonial,
 .cta {
@@ -110,22 +111,20 @@ section {
 }
 
 .cta-content {
-  background-color:  #3882F6;
+  background-color:#3882F6;
   display: flex;
 }
 
 .cta-header{
   font-weight: 600;
 }
-.cta-subtext{
-}
+
 .cta-button{
   border:1px solid #E5E7EB;
 }
 
 footer {
   justify-content: center;
-  color:#E5E7EB;
 }
 
 button{
