@@ -1,35 +1,85 @@
 /*For size reference begin*/
-header,main,footer {
-border:.1px solid pink;
+section {
+  border: 0.1px solid pink;
 }
 /*For size reference end*/
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    /*Add madding and margin last*/
-    display:flex;
-    flex-flow:column nowrap;
+body {
+  /*Add padding and margin last*/
+  display: flex;
+  flex-flow: column nowrap;
 }
 
-header,main,footer{
-    display:flex;
+header,
+main,
+footer {
+  display: flex;
+  /*Maybe do padding and margin here idk*/
 }
 
-header{
-    justify-content: space-between;
+header {
+  justify-content: space-between;
 }
 
-main{
-    flex-flow: column nowrap;
-    align-items: center;
+/* .header-logo{
 
 }
 
-footer{
-    align-self: center;
+.header-nav{
+
+} */
+
+.header-nav-list {
+  display: flex;
+  list-style: none;
+}
+
+main {
+  flex-flow: column nowrap;
+}
+
+section {
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  justify-content: space-between;
+}
+
+.info{
+  flex-flow: column nowrap;
+  text-align: center;
+}
+
+.info-main{
+  display:flex;
+
+}
+
+/* .info-image{
+  border:1px solid black;
+  border-radius: 10px;
+} */
+
+.testimonial , .cta{
+  justify-content: center;
+}
+
+.testimonial-speaker{
+  text-align: right;
+}
+
+.cta-content{
+  display:flex;
+}
+
+footer {
+  align-self: center;
 }
