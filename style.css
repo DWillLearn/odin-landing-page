@@ -70,6 +70,7 @@ section {
   font-size: 48px;
   font-weight: 700;
   color: #f9faf8;
+  margin-bottom: 20px;
 }
 
 .hero-subtext {
@@ -78,18 +79,17 @@ section {
 }
 
 .hero-text {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
-.hero-image{
- width:50%;
+.hero-image {
+  width: 50%;
 }
 
 .info {
   flex-flow: column nowrap;
   text-align: center;
   justify-content: center;
-
 }
 
 .info-main {
@@ -111,12 +111,12 @@ section {
 }
 
 .info-box-image {
-  border:3px solid #3882f6;
+  border: 3px solid #3882f6;
   border-radius: 10px;
   width: 160px;
-  height:160px;
-  padding:25px;
-  margin-bottom:10px;
+  height: 160px;
+  padding: 25px;
+  margin-bottom: 10px;
 }
 
 .testimonial,
@@ -174,4 +174,23 @@ button {
 
 figure {
   padding: 0 18%;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+a:hover:not(.header-logo > *) {
+  color: #3882f6;
+}
+
+button:hover {
+  background-color: #e5e7eb;
+  color: #3882f6;
+  cursor: pointer;
+}
+
+*:hover {
+  transition: color 0.5s, background-color 0.5s;
 }
