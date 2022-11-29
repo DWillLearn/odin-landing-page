@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
 
 * {
   margin: 0;
@@ -7,23 +7,24 @@
 }
 
 body {
-  /*Add padding and margin last*/
   display: flex;
   flex-flow: column nowrap;
-  color:#E5E7EB;
-  font-family: 'Inter', sans-serif;
+  color: #e5e7eb;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
+  font-size: 16px;
 }
 
 header,
 main,
 footer {
   display: flex;
-  /*Maybe do padding and margin here idk*/
 }
 
-header, footer{
-background-color: #1F2937;
+header,
+footer {
+  background-color: #1f2937;
+  padding: 20px 250px;
 }
 
 header {
@@ -31,42 +32,42 @@ header {
   align-items: center;
 }
 
-.header-logo{
-  font-size:24px;
-  color:#F9FAF8;
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
   font-weight: 600;
 }
 
 .header-nav-list {
   display: flex;
+  gap: 20px;
   list-style: none;
 }
 
 main {
   flex-flow: column nowrap;
-  justify-content: center;
 }
 
 section {
   display: flex;
   align-items: center;
+  padding: 150px 250px;
 }
 
 .hero {
+  background-color: #1f2937;
   justify-content: space-between;
-  background-color: #1F2937;
 }
 
-.hero-header{
-  font-size: 48px; 
-  font-weight:700;
-  color:#F9FAF8;
+.hero-header {
+  font-size: 48px;
+  font-weight: 700;
+  color: #f9faf8;
 }
 
-.hero-subtext{
-  font-size:18px;
-  color:#E5E7EB;
-
+.hero-subtext {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .info {
@@ -76,18 +77,21 @@ section {
 
 .info-main {
   display: flex;
-  color: #1F2937;
+  color: #1f2937;
+  justify-content: center;
 }
 
-.info-header{
-  font-size:36px;
+.info-header {
+  font-size: 36px;
   font-weight: 700;
-  color: #1F2937;
+  color: #1f2937;
+  margin-bottom:75px;
 }
 
-.info-image{
-  border:1px solid #3882F6;
+.info-box-image {
+  border: 5px solid #3882f6;
   border-radius: 10px;
+  width: 200px;
 }
 
 .testimonial,
@@ -95,13 +99,13 @@ section {
   justify-content: center;
 }
 
-.testimonial{
+.testimonial {
   background-color: #d1d2d4;
-  color:#1F2937;
+  color: #1f2937;
 }
 
-.testimonial-quote{
-  font-size:36px;
+.testimonial-quote {
+  font-size: 36px;
   font-weight: 300;
   font-style: italic;
 }
@@ -111,26 +115,28 @@ section {
 }
 
 .cta-content {
-  background-color:#3882F6;
+  background-color: #3882f6;
   display: flex;
+  border-radius: 10px;
 }
 
-.cta-header{
+.cta-header {
   font-weight: 600;
 }
 
-.cta-button{
-  border:1px solid #E5E7EB;
+.cta-button {
+  border: 1px solid #e5e7eb;
 }
 
 footer {
   justify-content: center;
 }
 
-button{
-  background-color:  #3882F6;
-  border:none;
-  font-family: 'Inter', sans-serif;
-  color:#E5E7EB;
-  font-weight:600;
+button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  color: #e5e7eb;
+  font-weight: 600;
 }
